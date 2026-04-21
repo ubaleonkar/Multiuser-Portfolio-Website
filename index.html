@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-User Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="toggle-icon">☀️</span>
+  </button>
+
+  <!-- Background Decoration -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-badge">Web Technology · Mini Project</div>
+    <h1 class="header-title">Our <em>Team</em></h1>
+    <p class="header-subtitle">
+      Three developers. One vision. Crafting seamless digital experiences together.
+    </p>
+    <div class="header-divider">
+      <span></span><span class="diamond">◆</span><span></span>
+    </div>
+  </header>
+
+  <!-- Team Cards -->
+  <main class="team-section">
+    <div class="cards-container">
+
+      <!-- Card 1: Manish -->
+      <article class="card" style="--card-delay: 0s">
+        <div class="card-accent"></div>
+        <div class="card-number">01</div>
+        <div class="avatar">
+          <div class="avatar-initials">MV</div>
+          <div class="avatar-ring"></div>
+        </div>
+        <div class="card-body">
+          <h2 class="member-name">Manish</h2>
+          <p class="member-role">
+            <span class="role-dot"></span>Python Developer
+          </p>
+          <p class="member-bio">Crafts intelligent backend systems and automation pipelines with precision and Pythonic elegance.</p>
+        </div>
+        <a href="https://metallic-hypernova.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="btn-portfolio"
+            title="View Manish Portfolio"
+            aria-label="View Manish Portfolio">
+            <span>View Portfolio</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+      </article>
+
+      <!-- Card 2: Onkar (Featured Center) -->
+      <article class="card card--featured" style="--card-delay: 0.15s">
+        <div class="card-accent"></div>
+        <div class="card-number">02</div>
+        <div class="avatar">
+          <div class="avatar-initials">OS</div>
+          <div class="avatar-ring"></div>
+        </div>
+        <div class="card-body">
+          <h2 class="member-name">Onkar</h2>
+          <p class="member-role">
+            <span class="role-dot"></span>Web Developer
+          </p>
+          <p class="member-bio">Builds robust, scalable web applications with a passion for clean code and elegant architecture.</p>
+        </div>
+        <a href="https://onkar-codes-space.lovable.app" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="btn-portfolio"
+            title="View Onkar Portfolio"
+            aria-label="View Onkar Portfolio">
+            <span>View Portfolio</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+      </article>
+
+      <!-- Card 3: Rushikesh -->
+      <article class="card" style="--card-delay: 0.3s">
+        <div class="card-accent"></div>
+        <div class="card-number">03</div>
+        <div class="avatar">
+          <div class="avatar-initials">RD</div>
+          <div class="avatar-ring"></div>
+        </div>
+        <div class="card-body">
+          <h2 class="member-name">Rushikesh</h2>
+          <p class="member-role">
+            <span class="role-dot"></span>UI Designer
+          </p>
+          <p class="member-bio">Shapes delightful user experiences through thoughtful design systems, color, and intuitive interfaces.</p>
+        </div>
+        <a href="https://darekarrushikesh853-lgtm.github.io/My-Portfolio/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="btn-portfolio"
+            title="View Rushikesh Portfolio"
+            aria-label="View Rushikesh Portfolio">
+            <span>View Portfolio</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Multi-User Portfolio Website &mdash; Web Technology Mini Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
